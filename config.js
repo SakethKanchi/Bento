@@ -11,10 +11,10 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
-  imageBackground: false,
+  name: 'Saketh',
+  imageBackground: true,
   openInNewTab: true,
-  twelveHourFormat: false,
+  twelveHourFormat: true,
 
   // Greetings
   greetingMorning: 'Good morning!',
@@ -26,14 +26,14 @@ const CONFIG = {
   bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+  weatherKey: 'ad890ea630082de79b8f17ac05e0a428', // Write here your API Key
   weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
-  trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+  defaultLatitude: '17.3850',
+  defaultLongitude: '78.4867',
 
   // Autochange
   autoChangeTheme: true,
@@ -53,39 +53,39 @@ const CONFIG = {
   firstButtonsContainer: [
     {
       id: '1',
+      name: 'Youtube',
+      icon: 'youtube',
+      link: 'https://youtube.com',
+    },
+    {
+      id: '2',
       name: 'Github',
       icon: 'github',
       link: 'https://github.com/',
     },
     {
-      id: '2',
+      id: '3',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
-    },
-    {
-      id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://todoist.com',
+      link: 'https://mail.google.com',
     },
     {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'GDrive',
+      icon: 'hard-drive',
+      link: 'https://drive.google.com/drive/u/0/my-drive',
     },
     {
       id: '5',
       name: 'Reddit',
-      icon: 'glasses',
+      icon: 'ghost',
       link: 'https://reddit.com',
     },
     {
       id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
+      name: 'Dramaday',
+      icon: 'film',
+      link: 'https://dramaday.net/',
     },
   ],
 
@@ -135,24 +135,24 @@ const CONFIG = {
   // First Links Container
   firstlistsContainer: [
     {
-      icon: 'music',
+      icon: 'book',
       id: '1',
       links: [
         {
-          name: 'Inspirational',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Webnovel',
+          link: 'https://www.webnovel.com/library',
         },
         {
-          name: 'Classic',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'NovelUpdates',
+          link: 'https://www.novelupdates.com/reading-list/',
         },
         {
-          name: 'Oldies',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Archive O3',
+          link: 'https://archiveofourown.org/',
         },
         {
-          name: 'Rock',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'FanFiction',
+          link: 'https://www.fanfiction.net/',
         },
       ],
     },
@@ -161,20 +161,20 @@ const CONFIG = {
       id: '2',
       links: [
         {
-          name: 'Linkedin',
-          link: 'https://www.linkedin.com',
+          name: 'Tumblr',
+          link: 'https://www.tumblr.com/dashboard',
         },
         {
-          name: 'Dribbble',
-          link: 'https://www.dribbble.com',
+          name: 'AniMixPlay',
+          link: 'https://animixplay.to/',
         },
         {
-          name: 'Trello',
-          link: 'https://www.trello.com',
+          name: 'Repacks',
+          link: 'https://fitgirl-repacks.site/',
         },
         {
-          name: 'Slack',
-          link: 'https://www.slack.com',
+          name: 'Netflix',
+          link: 'https://www.netflix.com/browse',
         },
       ],
     },
